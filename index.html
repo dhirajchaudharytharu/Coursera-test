@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food, LLC</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    /* Custom Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    .navbar {
+      background-color: #343a40;
+      border: none;
+    }
+
+    .navbar-brand {
+      font-size: 1.8em;
+      font-weight: bold;
+      color: #fff !important;
+    }
+
+    .navbar-toggle {
+      border-color: #fff;
+    }
+
+    .icon-bar {
+      background-color: #fff;
+    }
+
+    .dropdown-menu {
+      background-color: #f8f9fa;
+      width: 100%;
+      border: none;
+    }
+
+    .dropdown-menu > li > a {
+      font-size: 1.2em;
+      color: #343a40;
+      text-align: center;
+      padding: 10px 20px;
+    }
+
+    .dropdown-menu > li > a:hover {
+      background-color: #ddd;
+    }
+
+    .jumbotron {
+      background-color: #f8f9fa;
+      text-align: center;
+      padding: 50px 20px;
+      margin-bottom: 30px;
+    }
+
+    .jumbotron h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+
+    .jumbotron p {
+      font-size: 1.2em;
+      color: #555;
+    }
+
+    .tall-section {
+      background-color: #e9ecef;
+      padding: 30px 20px;
+    }
+
+    .menu-section {
+      margin-bottom: 30px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    .menu-section h2 {
+      font-size: 2em;
+      color: #343a40;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    .menu-section p {
+      font-size: 1.1em;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav visible-xs">
+          <li><a href="#chicken-section">Chicken</a></li>
+          <li><a href="#beef-section">Beef</a></li>
+          <li><a href="#sushi-section">Sushi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <h1>Welcome to Food, LLC</h1>
+    <p>Delicious meals crafted with care and passion.</p>
+  </div>
+
+  <!-- Tall Section -->
+  <div class="container-fluid tall-section">
+    <div class="row">
+      <div class="col-xs-12">
+        <!-- Chicken Section -->
+        <div id="chicken-section" class="menu-section">
+          <h2>Chicken</h2>
+          <p>
+            From classic fried chicken to gourmet grilled dishes, our chicken menu is crafted to satisfy every craving. 
+            Must-try options include Garlic Butter Chicken, Smoky BBQ Wings, and our signature Honey-Glazed Chicken Breast.
+          </p>
+        </div>
+
+        <!-- Beef Section -->
+        <div id="beef-section" class="menu-section">
+          <h2>Beef</h2>
+          <p>
+            Discover a range of succulent beef dishes, from our sizzling steaks to hearty beef stews. 
+            Favorites include our Juicy Ribeye, Slow-Cooked Brisket, and Teriyaki Beef Bowls.
+          </p>
+        </div>
+
+        <!-- Sushi Section -->
+        <div id="sushi-section" class="menu-section">
+          <h2>Sushi</h2>
+          <p>
+            Experience the art of sushi with our selection of fresh rolls and sashimi. 
+            Popular choices include Dragon Rolls, Salmon Nigiri, and Rainbow Rolls, prepared with precision and care.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Food, LLC. | <a href="#top">Back to Top</a></p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
